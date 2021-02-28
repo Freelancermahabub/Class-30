@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::before{
+content: " ";
+clear: both;
+display: block;
+}
+
+.maindiv{
+    margin: 50px auto;
+    width: 1400px;
+    height: auto;
+    border: 2px solid black;
+}
+
+.menudiv{
+    width: 1400px;
+    height: 130px;
+    background-color: rgb(228, 228, 228);
+   
+}
+.logodiv{
+    width: 30%;
+    height: auto;
+    margin-left: 100px;
+}
+img{
+    width: 30%;
+}
+
+.menu ul{
+   margin-top: -100px;
+}
+.menu{
+    width: 70%;
+    height: auto;
+    float: right;
+}
+.menu ul li{
+float: left;
+list-style: none;
+
+}
+.menu ul li a{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(170, 192, 255);
+    border-right: 2px solid black;
+    
+      
+}
+.menu ul li:first-child a{
+    border-left: 2px solid black;
+}
+
+.slaiderdiv{
+background-image: url(./Banar.jpg);
+background-size: cover;
+height: 400px;
+text-align: center;
+}
+
+h1{
+    
+    background-color: rgba(250, 116, 255, 0.4);
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+
+.jillurdiv{
+width: 70%;
+
+margin-right: 20px;
+}
+
+.jillurpic{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.imageandText{
+width: 1400px;
+height: auto;
+margin-top: 10px;
+}
+.list{
+    width: 30%;
+    float: right;
+    margin-top: -200px;
+    
+    
+}
+.notice{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(71, 197, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list ul li{
+list-style: none;
+margin-left: 100px;
+}
+
+.service{
+    text-align: center;
+    background-color: rgb(219, 255, 121);
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: bold;
+   padding: 15px 20px;
+   display: inline-block;
+   margin-left: 600px;
+}
+.servicelist{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.servicelist1{
+width: 32.1%;
+float: left;
+background-color: rgb(231, 231, 231);
+margin-right: 15px;
+padding: 20px 10px;
+}
+.footerdiv{
+    text-align:center ;
+    border-top: 5px solid black;
+    margin-top: 15px;
+    background-color: rgb(235, 235, 235);
+    padding: 15px;
+}
+
